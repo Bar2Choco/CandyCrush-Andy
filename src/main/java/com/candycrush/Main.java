@@ -1,7 +1,9 @@
 package com.candycrush;
 
+import com.candycrush.view.MenuFrame;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Candy Crush Project Started !");
+        new MenuFrame().setVisible(true);
     }
 }
